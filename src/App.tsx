@@ -25,8 +25,6 @@ const SAMPLE_PAGES: BookPage[] = [
 ];
 
 function App() {
-  const imgUrl = new URL('./img/book-front-cover.png', import.meta.url).href;
-  document.getElementById('book-img').src = imgUrl;
   return (
     <div className="min-h-screen bg-[#0A0A0A] text-white">
       {/* Navigation */}
