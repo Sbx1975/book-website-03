@@ -53,7 +53,7 @@ function App() {
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-b from-blue-500/20 to-purple-500/20 mix-blend-overlay"></div>
           <img
-            src="./img/Book-Cover-Front.png"
+            src="./img/book-cover-front.png"
             alt="Sak Yant"
             className="w-full h-full object-cover opacity-30"
           />
