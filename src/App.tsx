@@ -14,7 +14,7 @@ const SAMPLE_PAGES: BookPage[] = [
     title: "Chapter 1: The Beginning",
     content: "In the depths of the digital realm, where code meets creativity, a story begins to unfold...",
     //imageUrl: "https://images.unsplash.com/photo-1532012197267-da84d127e765?auto=format&fit=crop&q=80&w=800",
-    imageUrl: sakImg1,
+    imageUrl: bookFrontImg,
   },
   {
     id: 2,
