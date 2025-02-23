@@ -2,6 +2,8 @@ import React from 'react';
 import { BookMarked, Gift, Instagram, ChevronRight, Star, BookOpen } from 'lucide-react';
 import { BookPreview } from './components/BookPreview';
 import { BookPage } from './types';
+// IMG - VITE
+import Img1 from './img/book-front-cover.png'
 
 const SAMPLE_PAGES: BookPage[] = [
   {
@@ -50,9 +52,9 @@ function App() {
       
       <section className="relative min-h-screen flex items-center justify-center pt-16">
         <div className="absolute inset-0 z-0">
-          <div className="absolute inset-0 bg-gradient-to-b from-blue-500/20 to-purple-500/20 mix-blend-overlay"></div>
+          <div className="absolute inset-0 bg-gradient-to-b from-blue-500/20 to-purple-500/20 mix-blend-overlay" :key="image"></div>
           <img className="book-img"
-            src="./img/book-cover-front.png"
+            :src="image"
             alt="Sak Yant"
             className="w-full h-full object-cover opacity-30"
           />
