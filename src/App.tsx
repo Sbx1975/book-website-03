@@ -11,22 +11,22 @@ import sakImg1 from './img/sak1.jpg';
 const SAMPLE_PAGES: BookPage[] = [
   {
     id: 1,
-    title: "Chapter 1: The Beginning",
-    content: "In the depths of the digital realm, where code meets creativity, a story begins to unfold...",
+    title: "",
+    content: "",
     //imageUrl: "https://images.unsplash.com/photo-1532012197267-da84d127e765?auto=format&fit=crop&q=80&w=800",
     imageUrl: bookFrontImg,
   },
   {
     id: 2,
-    title: "Chapter 2: The Journey",
-    content: "Through valleys of algorithms and mountains of data, our protagonist ventures forth...",
+    title: "",
+    content: "",
     //imageUrl: "https://images.unsplash.com/photo-1589998059171-988d887df646?auto=format&fit=crop&q=80&w=800",
     imageUrl: sakImg1,
   },
   {
     id: 3,
-    title: "Chapter 3: The Discovery",
-    content: "Hidden within the ancient codebase, a secret waited to be uncovered...",
+    title: "",
+    content: "",
     //imageUrl: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&q=80&w=800",
     imageUrl: sakImg1,
   },
