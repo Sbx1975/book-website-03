@@ -5,6 +5,7 @@ import { BookPage } from './types';
 
 // IMG - VITE
 import bookFrontImg from './img/book.jpg';
+import sakImg1 from './img/sak1.jpg';
 
 
 const SAMPLE_PAGES: BookPage[] = [
@@ -35,7 +36,7 @@ function App() {
       <nav className="fixed w-full z-50 bg-black/50 backdrop-blur-lg">
         <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
           <div className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
-            The Art of Code
+            Sak Yant Stencil Book
           </div>
           <div className="flex items-center gap-6">
             <a href="#preview" className="text-gray-300 hover:text-white transition-colors">Preview</a>
