@@ -4,7 +4,7 @@ import { BookPreview } from './components/BookPreview';
 import { BookPage } from './types';
 
 // IMG - VITE
-import bookFrontImg from './img/book-front-cover.png';
+import bookFrontImg from './img/book.jpg';
 
 
 const SAMPLE_PAGES: BookPage[] = [
