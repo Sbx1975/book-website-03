@@ -65,19 +65,15 @@ function App() {
               <span className="text-yellow-500">Best-selling programming book of 2025</span>
             </div>
             <h1 className="text-5xl lg:text-7xl font-bold mb-6 leading-tight">
-              Master the
+              Sak Yant
               <span className="block bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
-                Art of Code
+                Stencil Book
               </span>
             </h1>
             <p className="text-xl text-gray-300 mb-8 max-w-xl">
-              Embark on a transformative journey through the elegant world of software craftsmanship. Learn the principles that separate good code from great code.
+            The Art of Sacred Thai Tattoos.
             </p>
             <div className="flex flex-wrap gap-4">
-              <button className="bg-white text-black px-8 py-4 rounded-full font-semibold transition-transform hover:scale-105 flex items-center gap-2">
-                <BookMarked className="w-5 h-5" />
-                Buy Now - $29.99
-              </button>
               <form action="https://www.paypal.com/donate" method="post" target="_blank" className="inline-block">
                 <input type="hidden" name="business" value="your-paypal-email@example.com" />
                 <input type="hidden" name="currency_code" value="USD" />
