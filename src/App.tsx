@@ -55,11 +55,7 @@ function App() {
       <section className="relative min-h-screen flex items-center justify-center pt-16">
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-b from-blue-500/20 to-purple-500/20 mix-blend-overlay"></div>
-          <img className="book-img"
-            src={bookFrontImg}
-            alt="Sak Yant"
-            className="w-full h-full object-cover opacity-30"
-          />
+          <img src={bookFrontImg} alt="Sak Yant" className="w-full h-full object-cover opacity-30"/>
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 grid lg:grid-cols-2 gap-12 items-center">
           <div>
