@@ -4,15 +4,8 @@ import { BookPreview } from './components/BookPreview';
 import { BookPage } from './types';
 
 // IMG - VITE
-import Img1 from './img/book-front-cover.png';
-export default {
-  data(){
-    return{
-      //images: [Img1, Img2, Img3, Img4, Img5, Img6, Img7, Img8, Img9]
-      image: Img1
-    }
-  }
-}
+import bookFrontImg from './img/book-front-cover.png';
+
 
 const SAMPLE_PAGES: BookPage[] = [
   {
@@ -63,7 +56,7 @@ function App() {
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-b from-blue-500/20 to-purple-500/20 mix-blend-overlay" :key="image"></div>
           <img className="book-img"
-            :src="image"
+            src={bookFrontImg}
             alt="Sak Yant"
             className="w-full h-full object-cover opacity-30"
           />
