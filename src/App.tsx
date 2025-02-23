@@ -25,6 +25,8 @@ const SAMPLE_PAGES: BookPage[] = [
 ];
 
 function App() {
+  const imgUrl = new URL('./img/book-front-cover.png', import.meta.url).href
+  document.getElementById('book-img').src = imgUrl
   return (
     <div className="min-h-screen bg-[#0A0A0A] text-white">
       {/* Navigation */}
@@ -47,12 +49,11 @@ function App() {
           </div>
         </div>
       </nav>
-
-      {/* Hero Section */}
+      
       <section className="relative min-h-screen flex items-center justify-center pt-16">
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-b from-blue-500/20 to-purple-500/20 mix-blend-overlay"></div>
-          <img
+          <img className="book-img"
             src="./img/book-cover-front.png"
             alt="Sak Yant"
             className="w-full h-full object-cover opacity-30"
