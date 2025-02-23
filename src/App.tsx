@@ -2,8 +2,17 @@ import React from 'react';
 import { BookMarked, Gift, Instagram, ChevronRight, Star, BookOpen } from 'lucide-react';
 import { BookPreview } from './components/BookPreview';
 import { BookPage } from './types';
+
 // IMG - VITE
-import Img1 from './img/book-front-cover.png'
+import Img1 from './img/book-front-cover.png';
+export default {
+  data(){
+    return{
+      //images: [Img1, Img2, Img3, Img4, Img5, Img6, Img7, Img8, Img9]
+      image: Img1
+    }
+  },
+}
 
 const SAMPLE_PAGES: BookPage[] = [
   {
