@@ -13,6 +13,9 @@ import sakImg3 from './img/sak3.jpg';
 import sakImg4 from './img/sak4.jpg';
 import sakImg5 from './img/sak5.jpg';
 import sakImg6 from './img/sak6.jpg';
+import pdfImg from './img/pdf.png';
+import psImg from './img/ps.png';
+import aiImg from './img/ai.png';
 
 
 const SAMPLE_PAGES: BookPage[] = [
@@ -143,19 +146,19 @@ function App() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid md:grid-cols-3 gap-8">
             <div className="group p-8 rounded-2xl bg-gradient-to-b from-gray-900 to-gray-800 hover:from-blue-900/20 hover:to-purple-900/20 transition-all duration-300">
-              <BookOpen className="w-12 h-12 text-blue-500 mb-6 group-hover:scale-110 transition-transform" />
+              <pdfImg className="w-12 h-12 text-blue-500 mb-6 group-hover:scale-110 transition-transform" />
               <h3 className="text-2xl font-semibold mb-4">Download PDF Book</h3>
               <p className="text-gray-400" class="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">Grab your book copy in Pdf format and print it.</p>
               <ChevronRight className="w-6 h-6 mt-6 text-blue-500 group-hover:translate-x-2 transition-transform" />
             </div>
             <div className="group p-8 rounded-2xl bg-gradient-to-b from-gray-900 to-gray-800 hover:from-blue-900/20 hover:to-purple-900/20 transition-all duration-300">
-              <BookMarked className="w-12 h-12 text-purple-500 mb-6 group-hover:scale-110 transition-transform" />
+              <psImg className="w-12 h-12 text-purple-500 mb-6 group-hover:scale-110 transition-transform" />
               <h3 className="text-2xl font-semibold mb-4">Download Psd Stencils</h3>
               <p className="text-gray-400" class="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">Download 69 Stencils in Psd format at 600dpi ready for scaling and printing.</p>
               <ChevronRight className="w-6 h-6 mt-6 text-purple-500 group-hover:translate-x-2 transition-transform" />
             </div>
             <div className="group p-8 rounded-2xl bg-gradient-to-b from-gray-900 to-gray-800 hover:from-blue-900/20 hover:to-purple-900/20 transition-all duration-300">
-              <Gift className="w-12 h-12 text-yellow-500 mb-6 group-hover:scale-110 transition-transform" />
+              <aiImg className="w-12 h-12 text-yellow-500 mb-6 group-hover:scale-110 transition-transform" />
               <h3 className="text-2xl font-semibold mb-4">Download Ai Stencils</h3>
               <p className="text-gray-400" class="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">69 Vectorial Stencils in Ai format ready to download.</p>
               <ChevronRight className="w-6 h-6 mt-6 text-yellow-500 group-hover:translate-x-2 transition-transform" />
