@@ -53,8 +53,8 @@ function App() {
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-b from-blue-500/20 to-purple-500/20 mix-blend-overlay"></div>
           <img
-            src="https://images.unsplash.com/photo-1516116216624-53e697fedbea?auto=format&fit=crop&q=80&w=2000"
-            alt="Book background"
+            src="./img/Book-Cover-Front.png"
+            alt=""
             className="w-full h-full object-cover opacity-30"
           />
         </div>
@@ -62,7 +62,7 @@ function App() {
           <div>
             <div className="flex items-center gap-2 mb-6">
               <Star className="w-5 h-5 text-yellow-500 fill-yellow-500" />
-              <span className="text-yellow-500">Best-selling programming book of 2025</span>
+              <span className="text-yellow-500">High Definition Vectorial Images</span>
             </div>
             <h1 className="text-5xl lg:text-7xl font-bold mb-6 leading-tight">
               Sak Yant
@@ -123,7 +123,7 @@ function App() {
       <footer className="bg-black py-8 border-t border-gray-800">
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-gray-400">© 2025 The Art of Code. All rights reserved.</p>
+            <p className="text-gray-400">© 2025 Sak Yant Stencil Book. All rights reserved.</p>
             <div className="flex items-center gap-8">
               <a href="#preview" className="text-gray-400 hover:text-white transition-colors">Preview</a>
               <a href="#features" className="text-gray-400 hover:text-white transition-colors">Features</a>
