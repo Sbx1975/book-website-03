@@ -5,7 +5,13 @@ import { BookPage } from './types';
 
 // IMG - VITE
 import bookFrontImg from './img/book.jpg';
+import bookBackImg from './img/bookback.jpg';
 import sakImg1 from './img/sak1.jpg';
+import sakImg2 from './img/sak2.jpg';
+import sakImg3 from './img/sak3.jpg';
+import sakImg4 from './img/sak4.jpg';
+import sakImg5 from './img/sak5.jpg';
+import sakImg6 from './img/sak6.jpg';
 
 
 const SAMPLE_PAGES: BookPage[] = [
@@ -28,7 +34,42 @@ const SAMPLE_PAGES: BookPage[] = [
     title: "",
     content: "",
     //imageUrl: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&q=80&w=800",
-    imageUrl: sakImg1,
+    imageUrl: sakImg2,
+  },
+    {
+    id: 3,
+    title: "",
+    content: "",
+    //imageUrl: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&q=80&w=800",
+    imageUrl: sakImg3,
+  },
+    {
+    id: 3,
+    title: "",
+    content: "",
+    //imageUrl: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&q=80&w=800",
+    imageUrl: sakImg4,
+  },
+    {
+    id: 3,
+    title: "",
+    content: "",
+    //imageUrl: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&q=80&w=800",
+    imageUrl: sakImg5,
+  },
+    {
+    id: 3,
+    title: "",
+    content: "",
+    //imageUrl: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&q=80&w=800",
+    imageUrl: sakImg6,
+  },
+    {
+    id: 3,
+    title: "",
+    content: "",
+    //imageUrl: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&q=80&w=800",
+    imageUrl: bookBackImg,
   },
 ];
 
