@@ -152,7 +152,7 @@ function App() {
               <ChevronRight className="w-6 h-6 mt-6 text-blue-500 group-hover:translate-x-2 transition-transform" />
             </div>
             <div className="group p-8 rounded-2xl bg-gradient-to-b from-gray-900 to-gray-800 hover:from-blue-900/20 hover:to-purple-900/20 transition-all duration-300">
-              <div><img src={psfImg} width="40" height="40"/></div>
+              <div><img src={psImg} width="40" height="40"/></div>
               <h3 className="text-2xl font-semibold mb-4">Download Psd Stencils</h3>
               <p className="text-gray-400" class="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">Download 69 Stencils in Psd format at 600dpi ready for scaling and printing.</p>
               <ChevronRight className="w-6 h-6 mt-6 text-purple-500 group-hover:translate-x-2 transition-transform" />
